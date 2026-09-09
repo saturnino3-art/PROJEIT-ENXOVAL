@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Olá Weslley</h1>
+    </header>
+    
+    <main>
+
+        <nav> 
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a> 
+                </li>
+
+                <li>
+                    <a href="cadastro.html">CADASTRAR</a> 
+                </li>
+            </ul>    
+        </nav>
+
+        <p id="mensagem"></p>
+
+        <form action="" id="formProduto">
+
+            <div class="cadastro">
+                <label for="nome">Nome do produto:</label>
+
+                <input 
+                    type="text" 
+                    id="nome" 
+                    name="nome" 
+                    placeholder="Clique Aqui!"
+                >  
+            </div>
+
+            <div class="cadastro">
+                <label for="preco">Preço (R$):</label>
+
+                <input 
+                    type="number" 
+                    id="preco"
+                    name="preco"
+                    placeholder="Ex:5000.99"
+                    step="0.01"
+                    min="1"
+                >
+            </div>
+
+            <div class="cadastro">
+                <label for="categoria">Categoria</label>
+
+                <select name="Categoria" id="categoria">
+
+                    <option value="">Selecione uma Categoria</option>
+                    <option value="COZINHA">COZINHA</option>
+                    <option value="QUARTOS">QUARTOS</option>
+                    <option value="SALA">SALA</option>
+                    <option value="LAVANDERIA">LAVANDERIA</option>
+                    <option value="BANHEIRO">BANHEIRO</option>
+
+                </select>
+            </div>
+
+            <button type="submit" class="botaoSalvar">
+                Salvar Produto
+            </button>
+
+        </form>
+
+    </main>
+
+    <table>
+
+        <thead>
+        </thead>
+
+        <tbody>        
+
+            <tr>
+            </tr>
+
+            <tr>
+            </tr>
+
+            <tr>
+            </tr>
+
+            <tr>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <h2></h2>
+
+    <footer>
+        <p>CRUD ENXOVAL - Feito por Saturnino</p>
+    </footer>
+
+    <script src="cadastro.js"></script>
+    
+</body>
+</html>

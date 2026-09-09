@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: azure;
+color: black;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+main {
+display: flex;
+flex: 1;
+flex-direction: column;
+align-items: center;
+margin-top: 10px;
+
+}
+
+
+table {
+margin-top: 20px;
+width:85%;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.acoes {
+    text-align: center;
+
+}
+
+    
+header {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: blue;
+font-family: 'Comic Sans MS';
+color: white;
+}
+
+h2 {
+    font-size:15PX;
+}
+
+footer {
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: blue;
+font-family: 'Comic Sans MS';
+color: black;
+
+}
+
+ul {
+display: flex;
+justify-content: center;
+gap: 35px;
+
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+background-color: black;
+color: slategray
+
+}
+
+
+
+a {
+    display:block;
+    text-decoration: none;
+    color:black
+    padding 10px;
+}
+
+a:hover {
+color: white;
+
+}
+
+
+
+
+table, 
+th,
+td {
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+.botaoExcluir {
+background-color: rgb(45, 45, 219);
+color: aliceblue;
+padding: 5px;
+font-size: 10px;
+border-radius: 5px; 
+
+    
+
+}
+.botaoEditar {
+    background-color: rgb(45, 45, 219);
+    color: aliceblue;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 5px;
+    
+   
+
+}
+
+    
+.botaoEditar:hover {
+
+color: black    ;
+cursor: pointer;
+
+}
+
+.botaoExcluir:hover {
+
+    color: black    ;
+    cursor: pointer;
+    
+    }
+
+
+form {
+background-color: white;
+padding: 15px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin-block: 5px;
+
+}
+
+.cadastro {
+display:flex;
+flex-direction: column;
+
+}
+
+label{
+font-size: 13px;
+text-transform: lowercase;
+}
+
+input{
+background-color: wheat;
+border: 1px solid slategray;
+padding: 5px;
+border-radius: 3px;
+outline: none;
+}
+
+input:focus,
+select:focus {
+border: 2px solid rgb(60, 23, 194)
+
+}
+
+
+
+select {
+background-color: wheat;
+border: 1px solid peru;
+padding: 3px;
+border-radius: 3px;
+outline: none;
+color: black;
+
+}
+
+.botaoSalvar {
+background-color: peru;
+color: antiquewhite;
+border: none;
+padding: 5px;
+border-radius: 10px;
+}
+
+.botaoSalvar:hover {
+    background-color: red;
+    color: antiquewhite; 
+}
+
+#mensagem {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}        
+
+#mensagem.erro {
+    display: block;
+    color: #991b1b;
+    background-color: #fee2e2;
+    border: 2px solid #991b1b;
+
+}
+
+#mensagem.sucesso {
+display: block;
+color: #166534;
+background-color: #dcfce7;
+border: 2px solid #166534;
+
+
+}
