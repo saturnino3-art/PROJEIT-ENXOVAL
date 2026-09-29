@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> Adicione seu Item!</h1>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html"> HOME</a></li>
+                <li><a href="CADASTRAR.html"> CADASTRAR</a></li>
+            </ul>
+        </nav>
+        <p id="mensagem"></p>
+        <form action="" id="formProduto">
+            <div class="campo">
+                <label for="nome">Nome do Produto:</label>
+                <input type="text" id="nome" name="nome" placeholder="Ex: Cama">
+            </div>
+
+            <div class="campo">
+                <label for="preco">Preço (R$):</label>
+                <input type="number" id="preco" name="preco" placeholder="Ex: 800.00" step="0.01" min="0">
+            </div>
+
+            <div class="campo">
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" name="quantidade" placeholder="Ex: 1" step="0.01" min="0">
+            </div>
+
+            <div class="campo">
+                <label for="status">Status:</label>
+                <select id="status">
+                    <option value="">Selecione</option>
+                    <option value="Pendente">Pendente</option>
+                    <option value="Comprado">Comprado</option>
+                </select>
+            </div>
+            <div class="campo">
+                <label for="categoria">Categoria:</label>
+                <select name="categoria" id="categoria">
+                    <option value="">Selecione uma categoria</option>
+                    <option value="Cozinha">Cozinha</option>
+                    <option value="Sala">Sala</option>
+                    <option value="Quarto">Quarto</option>
+                    <option value="Lavanderia">Lavanderia</option>
+                    <option value="Banheiro">Banheiro</option>
+                </select>
+            </div>
+            <button type="submit" class="botaoSalvar">Salvar Produto</button>
+        </form>
+    </main>
+    <footer>
+        <p>Projeto CRUD - Feito por Yasmim</p>
+    </footer>
+    <script src="CADASTRO.JS"></script>
+</body>
+
+</html>
