@@ -1,110 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-bru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CRUD - Monte seu Enxoval</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
     <header>
-        <h1>Olá Weslley</H1>
-        
+        <h1>Monte seu Enxoval</h1>
     </header>
-
-    <h2> Organize seu enxoval aqui!</h2>
-
-    <nav> 
-        <ul>
-            <li>
-                <a href="">HOME</a> 
-            </li>
-            <li>
-                <a href="">CADASTRAR</a> 
-            </li>
-    
-        </ul>    
-        
+    <main>
+        <nav>
+            <ul>
+                <li><a href=HOME.html> HOME</a></li>
+                <li><a href=CADASTRAR.html> CADASTRAR</a></li>
+            </ul>
         </nav>
-
-
-    <TABLE>
-        
-        <thead>
-
-            <tr>
-                <th> ID DO PRODUTO </th>
-                <th> ITENS DO ENXOVAL </th>
-                <th> VALOR</th>
-                <th> CATEGORIA </th>
-                <th> AÇÕES </th>
-            </tr>        
-        </thead>
-
-        <tbody>        
-            <tr>
-                <td>1</td>
-                <td>CAMA</td>
-                <td> R$4000 </td>
-                <td>QUARTO </td>
-                <td> <button type="button"> editar</button></td>
-                <td> <button type="button"> excluir</button></td>
-            </tr>
-
-            <tr>
-                <td>2</td>
-                <td>GELADEIRA</td>
-                <td>R$8000</td>
-                <td>COZINHA</td>
-                <td> <button type="button"> editar</button></td>
-                <td> <button type="button"> excluir</button></td>
-            </tr>
-
-            <tr>
-                <td>3</td>
-                <td>Jogo de pratos  </td>
-                <td>R$250</td>  
-                <td>COZINHA</td>  
-                <td> <button type="button"> editar</button></td>
-                <td> <button type="button"> excluir</button></td>   
-
-            </tr>
-
-            <tr>
-                <td>4</td>
-                <td> televisão </td>
-                <td> R$2500</td>  
-                <td> QUARTO</td>  
-                <td> <button type="button"> editar</button></td>
-                <td> <button type="button"> excluir</button></td>
-            </tr>
-
-
-
-
+        <br>
+        <h2> Lista de Produtos</h2>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Item</th>
+                    <th>Valor</th>
+                    <th>Quantidade</th>
+                    <th>Status</th>
+                    <th>Categoria</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+               <!-- <tr>
+                     <td>1</td>
+                    <td>Cama</td>
+                    <td>R$ 600.00</td>
+                    <td> Quarto</td>
+                    <td><button class="botaoeditar" >Editar</button>
+                        <button class="botaoExcluir">Excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Guarda Roupa</td>
+                    <td>R$ 3.200.00</td>
+                    <td> Quarto</td>
+                    <td><button class="botaoeditar" >Editar</button>
+                        <button class="botaoExcluir">Excluir</button>
+                    </td>
+                </tr> -->
         </tbody>
-
-    
-    </TABLE>
-    
-    <h2> </h2>
-
-
-<main>
-
-   
- 
-    
-
-
-
-</main>
-
-<foooter>
-<p> Saturnino </p>
-
-</foooter>
-    
+        </table>
+    </main>
+    <footer>
+        <p> Feito por Yasmim!</p>
+    </footer>
+    <script src="index.js"></script>
 </body>
+
 </html>
